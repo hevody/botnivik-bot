@@ -1,4 +1,4 @@
 # outputs
 
 ## botnivik.py
-[alt-text](./assets/botnivik_output.png)
+![alt-text](./assets/botnivik_output.png)
