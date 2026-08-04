@@ -1,3 +1,5 @@
+The bot is fully compatible with Windows (CMD terminal) and Android (Termux terminal)
+
 # outputs
 
 ## botnivik.py
