@@ -40,7 +40,7 @@ async def on_message(message):
           candidate = random.choice(alphanumpuncList)
           candidate_list += candidate
         password = ''.join(candidate_list)
-        embed = discord.Embed(title="Generated password",     # trying embed
+        embed = discord.Embed(title="Generated password",     
                                       description=password,
                                       colour=discord.Colour.purple())
         embed.set_author( name=message.author,
