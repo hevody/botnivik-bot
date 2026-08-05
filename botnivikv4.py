@@ -48,9 +48,12 @@ async def on_message(message):
         embed.set_author( name=message.author,
                           icon_url="https://i.pinimg.com/736x/83/11/1a/83111a294e4eff3e42c905fa21908cbf.jpg" )
         await message.channel.send(embed=embed)
-      if message.content.startswith(awv9U1ekja3Q.tXO5l):
+      if message.content.startswith(awv9U1ekja3Q.tXO5l) or message.content.startswith(awv9U1ekja3Q.kJzUY4Z):
         arguments = message.content.split()
-        RWs3xFJ = awv9U1ekja3Q.main(arguments[1], arguments[2])
+        if message.content.startswith(awv9U1ekja3Q.tXO5l):
+          RWs3xFJ = awv9U1ekja3Q.main(arguments[1], arguments[-1])
+        if message.content.startswith(awv9U1ekja3Q.kJzUY4Z):
+          RWs3xFJ = awv9U1ekja3Q.main(arguments[5], arguments[-1])
         embed = discord.Embed(title="Success!",
                               description=RWs3xFJ,
                               colour=discord.Colour.purple())
